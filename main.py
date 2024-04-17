@@ -51,7 +51,7 @@ root = tk.Tk()
 root.title("Détection de sentiments en direct via la webcam")
 
 # Démarrer la capture vidéo à partir de la webcam
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 
 # Vérifier si la capture vidéo est réussie
 if not cap.isOpened():
