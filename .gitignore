@@ -161,3 +161,4 @@ cython_debug/
 
 pilovenv
 dataset
+model_optimal.h5
