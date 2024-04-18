@@ -1,14 +1,4 @@
+opencv-python==4.5.3.56
+tensorflow==2.7.0
 pandas
-numpy
-matplotlib.pyplot
-seaborn
-plotly.express
-tensorflow
-tensorflow.keras.preprocessing.image
-tensorflow.keras.utils
-sklearn.metrics
-sklearn.preprocessing
-sklearn.metrics
-IPython.display
-warnings
-warnings.filterwarnings
+pillow
