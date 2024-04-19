@@ -1,4 +1,4 @@
-# Projet "Détection des sentiments dans les vidéos par IA" : Laurence, Pierre, Jonathan & Rémi
+# Projet "Détection des sentiments dans les vidéos par IA" :  Jonathan, Laurence, Pierre & Rémi
 
 Objectif :  L'objectif principal de Emobot est de développer une compréhension approfondie des émotions humaines en analysant les expressions faciales à travers des images ou des vidéos. Ce système utilise des technologies avancées de vision par ordinateur et d'intelligence artificielle pour identifier et classer les émotions des individus de manière précise et en temps réel.
 
