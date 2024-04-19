@@ -15,15 +15,15 @@ Objectif :  L'objectif principal de Emobot est de développer une compréhension
 
 OUTILS UTILISÉS
 
-TensorFlow :
+**TensorFlow** :
 
 TensorFlow est une bibliothèque logicielle gratuite et open-source pour le flux de données et la programmation différentiable sur une gamme de tâches. C'est une bibliothèque mathématique symbolique, et est également utilisée pour des applications d'apprentissage automatique telles que les réseaux neuronaux. 
 
-Keras:
+**Keras**:
 
 Keras est une bibliothèque de réseaux neuronaux open-source écrite en Python. Elle est capable de fonctionner sur TensorFlow. Conçue pour permettre une expérimentation rapide avec les réseaux neuronaux profonds, elle se concentre sur la convivialité, la modularité et l'extensibilité. 
 
-OpenCV:
+**OpenCV**:
 
 OpenCV (Open Source Computer Vision Library) est une bibliothèque de fonctions de programmation principalement destinée à la vision par ordinateur en temps réel. Elle se concentre principalement sur le traitement d'images, la capture vidéo et l'analyse, y compris des fonctionnalités telles que la détection de visage. 
 
