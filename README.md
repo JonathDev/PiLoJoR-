@@ -4,7 +4,7 @@ Objectif :  L'objectif principal de Emobot est de développer une compréhension
 
 * **La Présentation** : https://docs.google.com/presentation/d/1kxaBjUozHUTgMbr8JZmA9hVGgcq8N6HN3E-68FjXzKM/edit#slide=id.p
 * **Le notebook** : https://github.com/JonathDev/PiLoJoR-/blob/main/emotion-detector-fer-2013.ipynb
-* **Documentation** : [https://github.com/leabizbille/PiLoJoR-/blob/main/projet_emotionV4.pdf](https://github.com/JonathDev/PiLoJoR-/blob/main/projet_emotionV4.pdf)
+* **Documentation** : https://github.com/JonathDev/PiLoJoR-/blob/main/projet_emotionV4.pdf
     *  Le modele : https://github.com/JonathDev/PiLoJoR-/blob/main/Modele.py
     *  Entraînement d'un modèle de deep learning avec le dataset FER2013 : exemple https://github.com/JonathDev/PiLoJoR-/blob/main/15%20epochs.png
     *  Dataset :
