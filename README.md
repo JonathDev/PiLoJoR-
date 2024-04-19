@@ -29,7 +29,23 @@ OpenCV (Open Source Computer Vision Library) est une bibliothèque de fonctions 
 
 ***MÉTHODOLOGIE***
 
+1- Importer les libraries.
+2- Importer les test set et validation set.
+3- Utiliser le notebook pour créer le modele. 
+
 Le modèle CNN est conçu et entraîné en utilisant Keras. Nous utilisons OpenCV pour la détection de visages en utilisant son classifieur de détection de visages pour dessiner des boîtes englobantes autour des visages détectés automatiquement. Après avoir développé le modèle facial, le réseau est entraîné et sauvegardé. Ensuite, le modèle entraîné est déployé via une interface. Une fois que le modèle de reconnaissance des émotions est entraîné, nous exécutons le script principal Python qui charge le modèle entraîné et les poids sauvegardés par lesquels finalement le modèle est appliqué à un flux vidéo en temps réel via une webcam.
+
+Un modèle CNN séquentiel est utilisé dans ce projet. L'entrée passe d'abord par 4 blocs de convolution. Le nombre de filtres est progressivement augmenté, ce qui est le flux de travail général de diverses architectures de convolution. Dans chaque bloc, une convolution, une normalisation par lots, une fonction d'activation RELU (non-linéarité), un regroupement maximal et une régularisation par abandon sont appliqués sur les données. À chaque bloc de convolution, le volume est réduit d'un facteur de 2 tandis que le nombre de canaux double presque. La sortie est aplatie après le quatrième bloc de convolution, puis passe aux deux couches entièrement connectées. Enfin, la couche dense avec une activation Softmax est utilisée pour prédire l'étiquette de sortie qui correspond à l'une des sept émotions. L'optimiseur Adam est utilisé avec un taux d'apprentissage de 0,0005, ce qui accélère l'entraînement à environ 9 minutes par époque. La fonction model.summary() est utilisée pour afficher tous les paramètres que le modèle devra apprendre (environ 3 millions dans ce cas).
+
+Plus d'information dans le rapport. 
+
+4- Entrainement du modele.
+Tout d'abord, nous sélectionnons le nombre d'époques à 15. Le nombre d'époques est un hyperparamètre de la descente de gradient qui contrôle le nombre de passes complètes à travers l'ensemble de données d'entraînement. Chaque époque prend environ 9 à 10 minutes. La première époque prend le plus de temps car l'allocation de ressources doit être effectuée pour le GPU, diverses bibliothèques doivent être chargées et des fichiers pour l'optimisation doivent également être chargés. Le temps total pris est d'environ 2,5 heures.
+
+5- Sauvegarde du modele. 
+6- Utilisation du modele. 
+Le script main.py est exécuté et utilise les prédictions du modèle via une interface web.
+La classe de la caméra envoie le flux d'images au modèle CNN pré-entraîné, puis récupère les prédictions du modèle et ajoute des étiquettes aux trames vidéo, puis finalement renvoie l'image à l'interface web. Le modèle peut être appliqué à des vidéos enregistrées ou en temps réel via une webcam.
 
 ***ENSEMBLE DE DONNÉES***
 
