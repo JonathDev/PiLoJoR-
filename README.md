@@ -9,7 +9,7 @@ Objectif :  L'objectif principal de Emobot est de développer une compréhension
     *  Entraînement d'un modèle de deep learning avec le dataset FER2013 : exemple https://github.com/JonathDev/PiLoJoR-/blob/main/15%20epochs.png
     *  Dataset :
       ![image](https://github.com/JonathDev/PiLoJoR-/assets/83597256/d0d133e6-fe4d-4bf5-9d33-60e66bcc75ef)
-
+* **Lien pour télécharger le dataset : https://www.kaggle.com/datasets/ananthu017/emotion-detection-fer
 ***OUTILS UTILISÉS***
 
 **-TensorFlow** :    
