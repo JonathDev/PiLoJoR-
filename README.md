@@ -9,7 +9,6 @@ Objectif :  L'objectif principal de Emobot est de développer une compréhension
 * **Détection des émotions sur un flux Webcam** :
     *  Le modele : https://github.com/JonathDev/PiLoJoR-/blob/main/Modele.py
     *  Entraînement d'un modèle de deep learning avec le dataset FER2013 : exemple https://github.com/JonathDev/PiLoJoR-/blob/main/15%20epochs.png
-    *  Utilisation de la webcam comme outil de capture.
     *  Dataset :
       ![image](https://github.com/JonathDev/PiLoJoR-/assets/83597256/d0d133e6-fe4d-4bf5-9d33-60e66bcc75ef)
 
